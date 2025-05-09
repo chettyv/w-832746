@@ -20,6 +20,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Blog from "./pages/Blog";
 import BlogPostDetail from "./pages/BlogPostDetail";
 
+// Note: For now these routes still point to the existing project pages
+// These should be replaced with actual service pages when they're created
 const App = () => {
   const [queryClient] = useState(() => new QueryClient());
 
@@ -31,11 +33,11 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/projects/firecat" element={<FireCatProject />} />
-            <Route path="/projects/sport-retail" element={<SportRetailProject />} />
-            <Route path="/projects/workwear" element={<WorkwearProject />} />
-            <Route path="/projects/hockey" element={<HockeyProject />} />
-            <Route path="/projects/pet-tracker" element={<PetProject />} />
+            <Route path="/services/service1" element={<FireCatProject />} />
+            <Route path="/services/service2" element={<SportRetailProject />} />
+            <Route path="/services/service3" element={<WorkwearProject />} />
+            <Route path="/services/service4" element={<HockeyProject />} />
+            <Route path="/services/service5" element={<PetProject />} />
             <Route path="/tech-details" element={<TechDetails />} />
             <Route path="/development-process" element={<DevelopmentProcess />} />
             <Route path="/about" element={<About />} />

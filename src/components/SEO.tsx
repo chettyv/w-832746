@@ -12,32 +12,32 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = 'WRLDS',
-  description = 'WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring.',
+  title = 'Wellsphere',
+  description = 'Wellsphere: Holistic health and wellbeing clinic offering comprehensive services for mind, body, and spirit.',
   type = 'website',
-  name = 'WRLDS Technologies',
+  name = 'Wellsphere',
   imageUrl = '/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png'
 }) => {
   const location = useLocation();
-  const currentUrl = `https://wrlds.com${location.pathname}`;
-  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://wrlds.com${imageUrl}`;
+  const currentUrl = `https://wellsphere.com${location.pathname}`;
+  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://wellsphere.com${imageUrl}`;
 
   // Create JSON-LD structured data
   const structuredData = {
     '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'WRLDS Technologies',
-    url: 'https://wrlds.com',
-    logo: 'https://wrlds.com/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
-    description: 'Pioneering smart engineering solutions with textile sensors',
+    '@type': 'MedicalOrganization',
+    name: 'Wellsphere',
+    url: 'https://wellsphere.com',
+    logo: 'https://wellsphere.com/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
+    description: 'Holistic health and wellbeing clinic',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@wrlds.com'
+      email: 'info@wellsphere.com'
     },
     sameAs: [
-      'https://www.linkedin.com/company/wrlds-technologies',
-      'https://twitter.com/wrldstechnologies'
+      'https://www.linkedin.com/company/wellsphere',
+      'https://twitter.com/wellsphere'
     ]
   };
 

@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" alt="WRLDS Technologies Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
+              <img src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" alt="Wellsphere Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
             </Link>
           </div>
           
@@ -74,38 +74,38 @@ const Navbar = () => {
                 
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className={cn(isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                    Customer Cases
+                    Services
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 w-[400px]">
                       <li>
-                        <Link to="/projects/firecat" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">FireCat 6th SENSE</div>
-                          <p className="text-sm text-gray-500">Smart textiles for firefighter safety</p>
+                        <Link to="/services/service1" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Service 1</div>
+                          <p className="text-sm text-gray-500">Description of service 1</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/sport-retail" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Sports Performance</div>
-                          <p className="text-sm text-gray-500">Advanced tracking for athletes</p>
+                        <Link to="/services/service2" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Service 2</div>
+                          <p className="text-sm text-gray-500">Description of service 2</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/workwear" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Workwear Climate Control</div>
-                          <p className="text-sm text-gray-500">Temperature regulation for extreme environments</p>
+                        <Link to="/services/service3" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Service 3</div>
+                          <p className="text-sm text-gray-500">Description of service 3</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/hockey" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Ice Hockey Elite Tracker</div>
-                          <p className="text-sm text-gray-500">Performance tracking for ice hockey</p>
+                        <Link to="/services/service4" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Service 4</div>
+                          <p className="text-sm text-gray-500">Description of service 4</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/projects/pet-tracker" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Pet Activity Counter</div>
-                          <p className="text-sm text-gray-500">Smart collars for pet activity monitoring</p>
+                        <Link to="/services/service5" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Service 5</div>
+                          <p className="text-sm text-gray-500">Description of service 5</p>
                         </Link>
                       </li>
                     </ul>
@@ -196,40 +196,40 @@ const Navbar = () => {
                 submenu.classList.toggle('hidden');
               }
             }} className={cn("flex w-full justify-between items-center px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")}>
-              <span>Customer Cases</span>
+              <span>Services</span>
               <ChevronDown className="h-4 w-4" />
             </button>
             
             <div className="hidden ml-4 mt-1 space-y-1">
-              <Link to="/projects/firecat" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              <Link to="/services/service1" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
                 setIsMenuOpen(false);
                 window.scrollTo(0, 0);
               }}>
-                FireCat 6th SENSE
+                Service 1
               </Link>
-              <Link to="/projects/sport-retail" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              <Link to="/services/service2" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
                 setIsMenuOpen(false);
                 window.scrollTo(0, 0);
               }}>
-                Sports Performance
+                Service 2
               </Link>
-              <Link to="/projects/workwear" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              <Link to="/services/service3" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
                 setIsMenuOpen(false);
                 window.scrollTo(0, 0);
               }}>
-                Workwear Climate Control
+                Service 3
               </Link>
-              <Link to="/projects/hockey" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              <Link to="/services/service4" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
                 setIsMenuOpen(false);
                 window.scrollTo(0, 0);
               }}>
-                Ice Hockey Elite Tracker
+                Service 4
               </Link>
-              <Link to="/projects/pet-tracker" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              <Link to="/services/service5" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
                 setIsMenuOpen(false);
                 window.scrollTo(0, 0);
               }}>
-                Pet Activity Counter
+                Service 5
               </Link>
             </div>
           </div>
@@ -260,7 +260,7 @@ const Navbar = () => {
                 Development Process
               </Link>
               <button onClick={() => scrollToSection('why-wrlds')} className={cn("block w-full text-left px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")}>
-                Why WRLDS
+                Why Wellsphere
               </button>
             </div>
           </div>

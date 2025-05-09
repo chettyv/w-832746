@@ -10,8 +10,8 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - Smart Textile Technology" 
-        description="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring."
+        title="Wellsphere - Health and Wellbeing Clinic" 
+        description="Wellsphere: Holistic health and wellbeing clinic offering comprehensive services for mind, body, and spirit."
         imageUrl="/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
       />
       <Hero />
