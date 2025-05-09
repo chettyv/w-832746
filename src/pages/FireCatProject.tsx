@@ -1,16 +1,8 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
 import { Shield, Radio, Activity, Box } from 'lucide-react';
-
 const FireCatProject = () => {
-  return (
-    <ProjectPageLayout
-      title="Well Woman Health Check"
-      imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png"
-      brandName="FireCat Group"
-      darkMode={true}
-    >
-      <h2 className="text-3xl font-bold mb-6">Case Study: FireCat's 6th SENSE by WRLDS Technologies</h2>
+  return <ProjectPageLayout title="Well Woman Health Check" imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png" brandName="FireCat Group" darkMode={true}>
+      <h2 className="text-3xl font-bold mb-6">Well Women Health Check</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h3 className="text-xl font-semibold mb-2">Background</h3>
@@ -125,8 +117,6 @@ const FireCatProject = () => {
         safety, and operational efficiency of high-risk personnel. WRLDS' innovative platform and specialized 
         knowledge allowed for rapid deployment, immediate positive impact, and a scalable model for future expansions.
       </p>
-    </ProjectPageLayout>
-  );
+    </ProjectPageLayout>;
 };
-
 export default FireCatProject;
