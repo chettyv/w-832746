@@ -5,7 +5,7 @@ const FireCatProject = () => {
       <h2 className="text-3xl font-bold mb-6">Well Women Health Check</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
-        <h3 className="text-xl font-semibold mb-2">Background</h3>
+        
         <p>
           FireCat Group aimed to enhance the safety and operational effectiveness of personnel in high-risk 
           environments such as law enforcement, military operations, and firefighting. They required an advanced, 
