@@ -37,7 +37,7 @@ const FireCatProject = () => {
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Long-lasting and secure</h4>
+            <h4 className="font-semibold">Prevention Over Cure</h4>
             <p>Durable hardware with extended lifespan, robust encryption, and full GDPR compliance.</p>
           </div>
         </div>
