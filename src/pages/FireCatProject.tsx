@@ -30,7 +30,7 @@ const FireCatProject = () => {
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
             <h4 className="font-semibold">Personalised Health Insights</h4>
-            <p>Machine learning prevents false alarms by adapting to individual behavioral baselines.</p>
+            <p>Gain a clear understanding of your current health status and risk factors based on your age, lifestyle, and medical history.</p>
           </div>
         </div>
         
