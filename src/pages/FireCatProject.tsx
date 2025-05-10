@@ -1,18 +1,9 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
 import { Shield, Radio, Activity, Box } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-
 const FireCatProject = () => {
-  return (
-    <ProjectPageLayout
-      title="Well Women Health Check"
-      subtitle="Advanced motion analysis for optimal performance"
-      imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png"
-      brandName="FireCat Group"
-      darkMode={true}
-    >  
+  return <ProjectPageLayout title="Well Women Health Check" subtitle="Advanced motion analysis for optimal performance" imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png" brandName="FireCat Group" darkMode={true}>  
     
     <h2 className="text-3xl font-bold mb-6">Why a Well Women Health Check?</h2>
       
@@ -29,7 +20,8 @@ const FireCatProject = () => {
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Life-saving technology</h4>
+            <h4 className="font-semibold">Early Detection of Health Issues
+          </h4>
             <p>Rapid data acquisition facilitates quicker responses in emergencies.</p>
           </div>
         </div>
@@ -157,8 +149,6 @@ const FireCatProject = () => {
         </Card>
       </div>
      
-    </ProjectPageLayout>
-  );
+    </ProjectPageLayout>;
 };
-
 export default FireCatProject;
