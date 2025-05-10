@@ -22,7 +22,7 @@ const FireCatProject = () => {
           <div>
             <h4 className="font-semibold">Early Detection of Health Issues
           </h4>
-            <p>Rapid data acquisition facilitates quicker responses in emergencies.</p>
+            <p>Identify potential health conditions before symptoms appear, allowing for early intervention and better outcomes.</p>
           </div>
         </div>
         
