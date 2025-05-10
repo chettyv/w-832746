@@ -45,7 +45,7 @@ const FireCatProject = () => {
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Easy Maintenance</h4>
+            <h4 className="font-semibold">Peace of Mind</h4>
             <p>Sensors are fully washable and require minimal maintenance.</p>
           </div>
         </div>
