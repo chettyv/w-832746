@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,11 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import FireCatProject from "./pages/FireCatProject";
-import SportRetailProject from "./pages/SportRetailProject";
-import WorkwearProject from "./pages/WorkwearProject";
-import HockeyProject from "./pages/HockeyProject";
-import PetProject from "./pages/PetProject";
+import WomensHealthAssessment from "./pages/WomensHealthAssessment";
+import MentalHealthAssessment from "./pages/MentalHealthAssessment";
+import MenopauseClinic from "./pages/MenopauseClinic";
+import MensHealthAssessment from "./pages/MensHealthAssessment";
+import GutHealthClinic from "./pages/GutHealthClinic";
 import TechDetails from "./pages/TechDetails";
 import DevelopmentProcess from "./pages/DevelopmentProcess";
 import About from "./pages/About";
@@ -33,11 +32,11 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/services/service1" element={<FireCatProject />} />
-            <Route path="/services/service2" element={<SportRetailProject />} />
-            <Route path="/services/service3" element={<WorkwearProject />} />
-            <Route path="/services/service4" element={<HockeyProject />} />
-            <Route path="/services/service5" element={<PetProject />} />
+            <Route path="/services/service1" element={<WomensHealthAssessment />} />
+            <Route path="/services/service2" element={<MentalHealthAssessment />} />
+            <Route path="/services/service3" element={<MenopauseClinic />} />
+            <Route path="/services/service4" element={<MensHealthAssessment />} />
+            <Route path="/services/service5" element={<GutHealthClinic />} />
             <Route path="/tech-details" element={<TechDetails />} />
             <Route path="/development-process" element={<DevelopmentProcess />} />
             <Route path="/about" element={<About />} />
