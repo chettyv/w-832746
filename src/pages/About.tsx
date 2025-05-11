@@ -1,4 +1,3 @@
-
 import { ArrowLeft, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
@@ -29,7 +28,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About Wellsphere Clinic
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -51,12 +50,16 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we're on a mission to transform ordinary textiles into intelligent, 
-                    data-driven solutions that improve safety, performance, and quality of life across industries.
+                    At Wellsphere Clinic, we are committed to delivering personalised, patient-focused care that puts your health and wellbeing at the centre of everything we do. We take the time to listen to your concerns, offer tailored clinical advice, and provide access to the most effective treatments available.
                   </p>
                   <p className="text-gray-600">
-                    We believe that by embedding intelligence into everyday fabrics, we can create a more 
-                    connected, responsive, and safer world.
+                    Our experienced team ensures you never feel rushed, and we're here to guide you through your healthcare journey with compassion and clarity. Should you require specialist input, we have an extensive network of trusted consultants and external providers to whom we can refer with confidence.
+                  </p>
+                  <p className="text-gray-600">
+                    We believe in empowering our clients through education, proactive risk assessment, and early disease detection. Whether you're managing a chronic condition or simply looking to optimise your health, we offer the guidance and support you need to make informed decisions.
+                  </p>
+                  <p className="text-gray-600">
+                    Whether you're a regular client or visiting, Wellsphere Clinic is here to provide expert, responsive, and compassionate care tailored to your needs.
                   </p>
                 </motion.div>
                 
@@ -70,19 +73,23 @@ const About = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Innovation:</strong> We push boundaries to create solutions that weren't possible before.</span>
+                      <span><strong>Personalisation:</strong> We recognise that each individual is unique. We tailor our care, advice, and support to suit your personal health and lifestyle needs.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Quality:</strong> We're committed to excellence in every sensor, algorithm, and solution we deliver.</span>
+                      <span><strong>Excellence:</strong> We are committed to the highest standards in clinical care, service delivery, and client experience.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Collaboration:</strong> We work closely with our clients to ensure their unique needs are met.</span>
+                      <span><strong>Empowerment:</strong> We believe in educating and guiding our clients, so they feel confident in making informed decisions about their health and wellbeing.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Impact:</strong> We measure success by the tangible differences our technology makes in the real world.</span>
+                      <span><strong>Compassion:</strong> We treat every client with respect, empathy, and understanding—because genuine care is at the heart of what we do.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
+                      <span><strong>Collaboration:</strong> We work closely with clients, families, and trusted specialists to deliver holistic, joined-up care that supports long-term wellness.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -97,20 +104,24 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We started with the ambition to make an inherently scattered and complex development area modular, 
-                    smart and available to analog brands. After successfully raising millions of dollars for development, 
-                    we spent the first two years in full code mode.
+                    As a GP with years of experience in both NHS and private healthcare, I've had the privilege of caring for people from all walks of life. Over time, I began to see a clear pattern: while medicine can treat illness, what truly transforms health is <b>prevention, personalisation, and patient empowerment</b>.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    The goal was to turn all the scattered hardware and building blocks into simple modules to be 
-                    assembled like Lego. During this time we took in a range of customers for whom we built prototypes - 
-                    a way for us to make sure what we built had bearing in real world use cases.
+                    I founded Wellsphere Clinic with a simple but powerful mission—to provide a space where people feel heard, cared for, and supported in all aspects of their health. Here, we don't just treat symptoms; we look at the whole person: lifestyle, stress, nutrition, sleep, movement, and mindset.
                   </p>
-                  <p className="text-gray-600">
-                    In 2023 we felt we had reached a technology level allowing us to start working on enterprise level. 
-                    Since then, we have focused on textile integrations because of the enormous potential smart textiles 
-                    have across multiple industries from healthcare to public safety.
+                  <p className="text-gray-600 mb-4">
+                    My own journey into health and lifestyle medicine began with my patients. I listened to their stories—about burnout, weight struggles, menopause, and chronic conditions—and I realised they needed more than quick fixes. They needed time. They needed options. And most of all, they needed someone to help them make sense of their health in a way that was <b>scientific, practical, and compassionate</b>.
                   </p>
+                  <p className="text-gray-600 mb-4">
+                    At Wellsphere, our approach combines clinical excellence with holistic insight. Whether it's a comprehensive health check, support with lifestyle change, or guidance through complex health decisions, we are here to walk that journey with you.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    This is more than a clinic—it's a commitment to <b>better health, for real life</b>.
+                  </p>
+                  <div className="text-right italic text-gray-600">
+                    Dr. Raina Mittal<br />
+                    <span className="text-sm">Founder & Medical Director</span>
+                  </div>
                 </div>
               </motion.div>
               
@@ -129,17 +140,20 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "Felix von Heland",
-                      role: "CEO and Founder",
-                      bio: "Leading WRLDS Technologies with a vision to transform the future of smart textiles.",
-                      image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
+                      name: "Dr. Raina Mittal",
+                      role: "Founder & Medical Director",
+                      bio: "Leading Wellsphere Clinic with a vision to transform healthcare through personalised, patient-focused care.",
+                      image: "/images/Raina_Mittal_Headshot.jpg",
+                      linkedin: "https://www.linkedin.com/in/raina-mittal"
                     },
                     {
-                      name: "Niek Bijman",
-                      role: "Software Lead",
-                      bio: "Specializing in cloud infrastructure and APIs for seamless data integration.",
-                      image: "/lovable-uploads/e502f601-c519-43a8-86f5-5fa89ae50d2f.png"
+                      name: "Dr. Shailendra Allen",
+                      role: "Co-Founder",
+                      bio: "Bringing extensive medical expertise and a shared vision for patient-centered healthcare.",
+                      image: "/lovable-uploads/e502f601-c519-43a8-86f5-5fa89ae50d2f.png",
+                      linkedin: "https://www.linkedin.com/in/shailendra-allen"
                     },
+                    /* Commented out team members
                     {
                       name: "Chengjie Li",
                       role: "Hardware Lead",
@@ -152,6 +166,7 @@ const About = () => {
                       bio: "Overseeing daily operations and ensuring business objectives are met effectively.",
                       image: "/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
                     }
+                    */
                   ].map((member, i) => (
                     <Card key={i} className="bg-gray-50 border border-gray-100 overflow-hidden">
                       <CardContent className="p-6">
@@ -160,12 +175,25 @@ const About = () => {
                             <img 
                               src={member.image} 
                               alt={member.name} 
-                              className="w-full h-full object-cover filter grayscale" 
+                              className="w-full h-full object-cover" 
                             />
                           </div>
                           <h3 className="font-bold text-lg">{member.name}</h3>
                           <p className="text-gray-500 text-sm mb-2">{member.role}</p>
-                          <p className="text-gray-600 text-sm">{member.bio}</p>
+                          <p className="text-gray-600 text-sm mb-3">{member.bio}</p>
+                          {member.linkedin && (
+                            <a 
+                              href={member.linkedin}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-blue-600 hover:text-blue-800 text-sm flex items-center gap-1 transition-colors"
+                            >
+                              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                              </svg>
+                              LinkedIn Profile
+                            </a>
+                          )}
                         </div>
                       </CardContent>
                     </Card>

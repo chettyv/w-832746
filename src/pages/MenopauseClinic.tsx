@@ -1,4 +1,5 @@
 import ProjectPageLayout from '@/components/ProjectPageLayout';
+import SEO from '@/components/SEO';
 import { Thermometer, ShieldCheck, Mountain, FileSymlink, Cpu, FlaskConical } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,12 @@ const WorkwearProject = () => {
       brandName="Menopause Care"
       darkMode={true}
     >
+      <SEO 
+        title="Menopause Clinic - Wellsphere" 
+        description="Specialized care and support during menopause"
+        type="service"
+      />
+      
       <h2 className="text-3xl font-bold mb-6">Why Visit Our Menopause Clinic?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">

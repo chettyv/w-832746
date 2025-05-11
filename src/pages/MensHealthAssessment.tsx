@@ -1,4 +1,5 @@
 import ProjectPageLayout from '@/components/ProjectPageLayout';
+import SEO from '@/components/SEO';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -11,6 +12,12 @@ const HockeyProject = () => {
       brandName="Men's Health"
       darkMode={true}
     >
+      <SEO 
+        title="Men's Health Assessment - Wellsphere" 
+        description="Comprehensive health assessment for men"
+        type="service"
+      />
+      
       <h2 className="text-3xl font-bold mb-6">Why a Men's Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">

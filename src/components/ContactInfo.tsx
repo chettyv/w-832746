@@ -19,7 +19,7 @@ const ContactInfo = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Felix's Contact Info */}
+          {/* Raina's Contact Info */}
           <div className="bg-white rounded-xl shadow-xl p-8 border border-gray-700">
             <div className="flex flex-col items-center text-center">
               <img 
@@ -47,7 +47,7 @@ const ContactInfo = () => {
             </div>
           </div>
 
-          {/* Love's Contact Info */}
+          {/* Allan's Contact Info */}
           <div className="bg-white rounded-xl shadow-xl p-8 border border-gray-700">
             <div className="flex flex-col items-center text-center">
               <img 

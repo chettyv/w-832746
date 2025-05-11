@@ -1,11 +1,21 @@
 import ProjectPageLayout from '@/components/ProjectPageLayout';
 import SEO from '@/components/SEO';
-import { Footprints, Zap, LineChart, Award, Sparkles, FlaskConical } from 'lucide-react';
-import { Shield, Radio, Activity, Box } from 'lucide-react';
+import { 
+  Footprints, 
+  Zap, 
+  LineChart, 
+  Award, 
+  Sparkles, 
+  FlaskConical,
+  Shield, 
+  Radio, 
+  Activity, 
+  Box 
+} from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const SportRetailProject = () => {
+const MentalHealthAssessment = () => {
   return (
     <ProjectPageLayout
       title="Mental Health Assessment"
@@ -15,9 +25,9 @@ const SportRetailProject = () => {
       darkMode={true}
     >
       <SEO 
-        title="WRLDS - Mental Health Assessment Project" 
+        title="Mental Health Assessment - Wellsphere" 
         description="Professional mental health evaluation and support"
-        type="article"
+        type="service"
       />
       
       <h2 className="text-3xl font-bold mb-6">Why a Mental Health Assessment?</h2>
@@ -175,4 +185,4 @@ const SportRetailProject = () => {
   );
 };
 
-export default SportRetailProject;
+export default MentalHealthAssessment;

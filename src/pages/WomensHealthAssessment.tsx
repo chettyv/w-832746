@@ -1,4 +1,5 @@
 import ProjectPageLayout from '@/components/ProjectPageLayout';
+import SEO from '@/components/SEO';
 import { Shield, Radio, Activity, Box } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,12 @@ const FireCatProject = () => {
       brandName="Women's Health" 
       darkMode={true}
     >  
+      <SEO 
+        title="Women's Health Assessment - Wellsphere" 
+        description="Comprehensive health assessment for women"
+        type="service"
+      />
+      
       <h2 className="text-3xl font-bold mb-6">Why a Women's Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">

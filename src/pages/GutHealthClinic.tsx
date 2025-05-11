@@ -1,4 +1,5 @@
 import ProjectPageLayout from '@/components/ProjectPageLayout';
+import SEO from '@/components/SEO';
 import { PawPrint, BadgePercent, HeartPulse, Smartphone, Database, FlaskConical, Shield, Radio, Activity, Box } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,12 @@ const PetProject = () => {
       brandName="Gut Health"
       darkMode={true}
     >
+      <SEO 
+        title="Gut Health Clinic - Wellsphere" 
+        description="Specialized digestive health assessment and treatment"
+        type="service"
+      />
+      
       <div className="bg-green-50 p-4 rounded-lg mb-6 flex items-center">
         <FlaskConical className="h-5 w-5 text-green-600 mr-2 flex-shrink-0" />
         <p className="text-green-700 font-medium text-sm">Completed Prototype Project</p>
