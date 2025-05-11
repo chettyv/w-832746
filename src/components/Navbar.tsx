@@ -73,33 +73,32 @@ const Navbar = () => {
                     <ul className="grid gap-3 p-4 w-[400px]">
                       <li>
                         <Link to="/services/service1" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Well Women Health Check</div>
-                          <p className="text-sm text-gray-500">
-                        </p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/services/service2" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Service 2</div>
-                          <p className="text-sm text-gray-500">Description of service 2</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/services/service3" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Service 3</div>
-                          <p className="text-sm text-gray-500">Description of service 3</p>
+                          <div className="font-medium">Women's Health Assessment</div>
+                          <p className="text-sm text-gray-500">Comprehensive health assessment for women</p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/services/service4" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Service 4</div>
-                          <p className="text-sm text-gray-500">Description of service 4</p>
+                          <div className="font-medium">Men's Health Assessment</div>
+                          <p className="text-sm text-gray-500">Comprehensive health assessment for men</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/services/service2" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Mental Health Assessment</div>
+                          <p className="text-sm text-gray-500">Professional mental health evaluation and support</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/services/service3" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Menopause Clinic</div>
+                          <p className="text-sm text-gray-500">Specialized care and support during menopause</p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/services/service5" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Service 5</div>
-                          <p className="text-sm text-gray-500">Description of service 5</p>
+                          <div className="font-medium">Gut Health Clinic</div>
+                          <p className="text-sm text-gray-500">Specialized digestive health assessment and treatment</p>
                         </Link>
                       </li>
                     </ul>
@@ -199,31 +198,31 @@ const Navbar = () => {
               setIsMenuOpen(false);
               window.scrollTo(0, 0);
             }}>
-                Service 1
-              </Link>
-              <Link to="/services/service2" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
-              setIsMenuOpen(false);
-              window.scrollTo(0, 0);
-            }}>
-                Service 2
-              </Link>
-              <Link to="/services/service3" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
-              setIsMenuOpen(false);
-              window.scrollTo(0, 0);
-            }}>
-                Service 3
+                Women's Health Assessment
               </Link>
               <Link to="/services/service4" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
               setIsMenuOpen(false);
               window.scrollTo(0, 0);
             }}>
-                Service 4
+                Men's Health Assessment
+              </Link>
+              <Link to="/services/service2" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              setIsMenuOpen(false);
+              window.scrollTo(0, 0);
+            }}>
+                Mental Health Assessment
+              </Link>
+              <Link to="/services/service3" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+              setIsMenuOpen(false);
+              window.scrollTo(0, 0);
+            }}>
+                Menopause Clinic
               </Link>
               <Link to="/services/service5" className={cn("block px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
               setIsMenuOpen(false);
               window.scrollTo(0, 0);
             }}>
-                Service 5
+                Gut Health Clinic
               </Link>
             </div>
           </div>

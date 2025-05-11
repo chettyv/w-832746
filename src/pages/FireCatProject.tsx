@@ -6,19 +6,20 @@ import { Button } from "@/components/ui/button";
 const FireCatProject = () => {
   return (
     <ProjectPageLayout 
-      title="Well Women Health Check" 
-      subtitle="Advanced motion analysis for optimal performance" 
+      title="Women's Health Assessment" 
+      subtitle="Comprehensive health assessment for women" 
       imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png" 
-      brandName="FireCat Group" 
+      brandName="Women's Health" 
       darkMode={true}
     >  
-      <h2 className="text-3xl font-bold mb-6">Why a Well Women Health Check?</h2>
+      <h2 className="text-3xl font-bold mb-6">Why a Women's Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <p>
-          FireCat Group aimed to enhance the safety and operational effectiveness of personnel in high-risk 
-          environments such as law enforcement, military operations, and firefighting. They required an advanced, 
-          integrated sensor solution that could provide critical real-time data for risk management and decision-making.
+          Our Women's Health Assessment provides a comprehensive evaluation of your health status, 
+          focusing on women-specific health concerns and preventive care. This thorough check-up 
+          helps identify potential health issues early and provides personalized recommendations 
+          for maintaining optimal health.
         </p>
       </div>
       

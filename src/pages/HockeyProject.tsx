@@ -1,136 +1,166 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
-import { Activity, Gauge, Flag, Users, BarChart3 } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const HockeyProject = () => {
   return (
     <ProjectPageLayout
-      title="Ice Hockey Elite Skill Tracker"
-      subtitle="Advanced motion analysis for optimal performance"
-      imageUrl="/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png"
-      brandName="Mars Blades"
+      title="Men's Health Assessment"
+      subtitle="Comprehensive health assessment for men"
+      imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png"
+      brandName="Men's Health"
+      darkMode={true}
     >
-      <h2 className="text-3xl font-bold mb-6">Case Study: Hockey Performance Analysis System</h2>
+      <h2 className="text-3xl font-bold mb-6">Why a Men's Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
-        <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          Mars Blades, a leading innovator in hockey training equipment, sought to develop a system for 
-          quantifying and analyzing the specific movements that contribute to elite hockey performance. They approached 
-          WRLDS Technologies to create a solution that could capture detailed metrics during real skating sessions and 
-          translate that data into actionable insights for player development.
+          Our Men's Health Assessment provides a comprehensive evaluation of your health status, 
+          focusing on men-specific health concerns and preventive care. This thorough check-up 
+          helps identify potential health issues early and provides personalized recommendations 
+          for maintaining optimal health.
         </p>
       </div>
-      
-      <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
-      <p>
-          Previous attempts to measure hockey performance relied on multiple external sensors or camera systems 
-          that were cumbersome, expensive, and limited to controlled environments. Mars Blades needed a solution that 
-          was simple enough for daily use but sophisticated enough to capture the nuanced movements that differentiate 
-          elite players, particularly focusing on acceleration, speed transitions, and maneuverability on ice.
-      </p>
-      
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
-      <p>
-        WRLDS Technologies developed a specialized single-point IMU (Inertial Measurement Unit) system embedded directly 
-        in hockey footwear that could:
-      </p>
-      
-      <div className="grid md:grid-cols-2 gap-6 my-8">
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Activity className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Motion Pattern Recognition</h4>
-            <p>Identify and categorize specific skating movements from crossovers to tight turns.</p>
-          </div>
-        </div>
-        
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Gauge className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Performance Metrics</h4>
-            <p>Measure acceleration forces, edge angles, weight distribution, and power output in real-time.</p>
-          </div>
-        </div>
-        
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Flag className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Benchmark Comparisons</h4>
-            <p>Compare athlete's movements to established elite player patterns and historical personal bests.</p>
-          </div>
-        </div>
-        
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Users className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
-          <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Coach Integration</h4>
-            <p>Provide coaches with detailed skill development metrics across team members.</p>
-          </div>
-        </div>
-      </div>
-      
-      <h4 className="text-xl font-semibold mb-4">System Components</h4>
-      <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Embedded sensors designed to withstand the harsh conditions of ice hockey</li>
-        <li>Bluetooth connectivity with real-time data streaming to rinkside devices</li>
-        <li>Athlete-facing mobile app with immediate performance feedback</li>
-        <li>Coach dashboard for tracking player development and team trends</li>
-        <li>Machine learning algorithm that improves pattern recognition over time</li>
-      </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits</h3>
       <div className="space-y-6 mb-8">
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Skill Development</h4>
-            <p>Players using the system showed faster improvement in targeted skating skills.</p>
+            <h4 className="font-semibold">Early Detection of Health Issues</h4>
+            <p>Identify potential health conditions before symptoms appear, allowing for early intervention and better outcomes.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Injury Prevention</h4>
-            <p>Early detection of asymmetrical movements helped reduce strain-related injuries.</p>
+            <h4 className="font-semibold">Personalised Health Insights</h4>
+            <p>Gain a clear understanding of your current health status and risk factors based on your age, lifestyle, and medical history.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Elite Performance Insights</h4>
-            <p>Identified specific movement patterns that correlate with elite acceleration and agility.</p>
+            <h4 className="font-semibold">Prevention Over Cure</h4>
+            <p>Take proactive steps to prevent future illnesses through tailored advice, lifestyle changes, and regular monitoring</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Coaching Efficiency</h4>
-            <p>Reduced subjective assessment with quantifiable metrics for player development.</p>
+            <h4 className="font-semibold">Peace of Mind</h4>
+            <p>Reassure yourself with a thorough check-up, reducing anxiety and uncertainty about your health</p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
+          <div>
+            <h4 className="font-semibold">Improved Long-Term Health Outcomes</h4>
+            <p>Detecting conditions early can lead to more effective treatment and better long-term health management.</p>
+          </div>
+        </div>
+
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
+          <div>
+            <h4 className="font-semibold">Personalised Wellness Guidance</h4>
+            <p>Receive expert advice and tailored recommendations to help you achieve your health goals, whether it's improving fitness, nutrition, stress management, or overall wellbeing.</p>
           </div>
         </div>
       </div>
       
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Outcome</h3>
-      <p>
-        The Ice Hockey Elite Skill Tracker has been successfully adopted by professional teams and elite hockey 
-        academies across North America and Europe. Mars Blades has integrated the technology into their premium training 
-        products, creating a new standard for performance analysis in ice hockey. The data collected has also led to 
-        improvements in skate design and training methodologies based on the scientific insights provided.
-      </p>
+      {/* Packages Section */}
+      <h2 className="text-3xl font-bold mb-8 mt-16">Packages</h2>
       
-      <div className="bg-blue-50 p-6 rounded-lg mt-8 flex items-start">
-        <BarChart3 className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
-        <div>
-          <h4 className="text-lg font-semibold mb-2 text-gray-700">Research Impact</h4>
-          <p>
-            The data gathered from this project has contributed to academic research on elite athletic performance 
-            and has been cited in sports science publications focused on optimizing movement efficiency in winter sports.
-          </p>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {/* Bronze Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-amber-700 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Bronze</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£150</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Blood pressure check</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>BMI</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Prostate check</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Urine analysis</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full">Book Now</Button>
+          </CardFooter>
+        </Card>
+        
+        {/* Silver Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-gray-400 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Silver</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£250</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start font-medium">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Includes everything in Bronze</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Testosterone check</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Hormonal blood work</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full" variant="secondary">Book Now</Button>
+          </CardFooter>
+        </Card>
+        
+        {/* Gold Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-yellow-500 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Gold</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£350</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start font-medium">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>Includes everything in Silver</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>GP consultation</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>Lifestyle health plan</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full bg-yellow-500 hover:bg-yellow-600">Book Now</Button>
+          </CardFooter>
+        </Card>
       </div>
     </ProjectPageLayout>
   );

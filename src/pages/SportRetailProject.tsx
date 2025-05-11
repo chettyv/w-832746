@@ -1,111 +1,175 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
 import SEO from '@/components/SEO';
 import { Footprints, Zap, LineChart, Award, Sparkles, FlaskConical } from 'lucide-react';
+import { Shield, Radio, Activity, Box } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const SportRetailProject = () => {
   return (
     <ProjectPageLayout
-      title="Performance Athletic Footwear"
-      subtitle="Revolutionary R&D for next-generation athletic footwear"
-      imageUrl="/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png"
-      brandName="Global Sports Retail Leader"
+      title="Mental Health Assessment"
+      subtitle="Professional mental health evaluation and support"
+      imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png"
+      brandName="Mental Health"
+      darkMode={true}
     >
       <SEO 
-        title="WRLDS - Performance Athletic Footwear Project" 
-        description="Revolutionary R&D for next-generation athletic footwear with embedded textile sensors for real-time performance analytics and personalized footwear."
+        title="WRLDS - Mental Health Assessment Project" 
+        description="Professional mental health evaluation and support"
         type="article"
       />
       
-      <div className="bg-yellow-50 p-4 rounded-lg mb-6 flex items-center">
-        <FlaskConical className="h-5 w-5 text-yellow-600 mr-2 flex-shrink-0" />
-        <p className="text-yellow-700 font-medium text-sm">Ongoing R&D Project — Currently in Prototyping Phase</p>
-      </div>
-      
-      <h2 className="text-3xl font-bold mb-6">Case Study: Smart Footwear Development</h2>
+      <h2 className="text-3xl font-bold mb-6">Why a Mental Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
-        <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          A global sports retail leader approached WRLDS Technologies with a vision to revolutionize the development, 
-          fitting, and testing of athletic footwear. Their goal was to create a data-driven approach to footwear design 
-          that would enhance athlete performance while reducing development cycles.
+          Our Mental Health Assessment provides a comprehensive evaluation of your mental wellbeing, 
+          focusing on emotional health, stress management, and psychological support. This thorough 
+          assessment helps identify potential mental health concerns early and provides personalized 
+          recommendations for maintaining optimal mental health.
         </p>
       </div>
       
-      <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
-      <p>
-        Traditional footwear development relied heavily on subjective feedback and limited quantitative testing. 
-        The company needed a precise way to measure actual performance metrics, foot movements, and pressure 
-        distribution in real-world athletic scenarios. Additionally, they wanted to personalize footwear recommendations 
-        based on individual biomechanics.
-      </p>
-      
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
-      <p>
-        WRLDS Technologies developed a comprehensive smart footwear R&D platform that includes:
-      </p>
-      
-      <div className="grid md:grid-cols-2 gap-6 my-8">
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Footprints className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+      <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits</h3>
+      <div className="space-y-6 mb-8">
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Embedded Sensors</h4>
-            <p>Textile-based pressure and motion sensors integrated directly into prototype footwear.</p>
+            <h4 className="font-semibold">Early Detection of Health Issues</h4>
+            <p>Identify potential health conditions before symptoms appear, allowing for early intervention and better outcomes.</p>
           </div>
         </div>
         
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Zap className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Real-time Analysis</h4>
-            <p>Instant feedback on gait, pressure points, and energy transfer during athletic movements.</p>
+            <h4 className="font-semibold">Personalised Health Insights</h4>
+            <p>Gain a clear understanding of your current health status and risk factors based on your age, lifestyle, and medical history.</p>
           </div>
         </div>
         
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <LineChart className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Performance Metrics</h4>
-            <p>Comprehensive data collection on acceleration, stability, and energy return across different sports movements.</p>
+            <h4 className="font-semibold">Prevention Over Cure</h4>
+            <p>Take proactive steps to prevent future illnesses through tailored advice, lifestyle changes, and regular monitoring</p>
           </div>
         </div>
         
-        <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Award className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Athlete Cloud Platform</h4>
-            <p>AI-powered analytics comparing performance across prototype iterations and athlete profiles.</p>
+            <h4 className="font-semibold">Peace of Mind</h4>
+            <p>Reassure yourself with a thorough check-up, reducing anxiety and uncertainty about your health</p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
+          <div>
+            <h4 className="font-semibold">Improved Long-Term Health Outcomes</h4>
+            <p>Detecting conditions early can lead to more effective treatment and better long-term health management.</p>
+          </div>
+        </div>
+
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
+          <div>
+            <h4 className="font-semibold">Personalised Wellness Guidance</h4>
+            <p>Receive expert advice and tailored recommendations to help you achieve your health goals, whether it's improving fitness, nutrition, stress management, or overall wellbeing.</p>
           </div>
         </div>
       </div>
       
-      <h4 className="text-xl font-semibold mb-4">Key Features</h4>
-      <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Machine washable sensor technology for extended testing periods</li>
-        <li>Low-profile design that doesn't interfere with natural movement</li>
-        <li>Cross-platform mobile app for real-time coaching and feedback</li>
-        <li>Materials testing module to evaluate durability and performance longevity</li>
-      </ul>
+      {/* Packages Section */}
+      <h2 className="text-3xl font-bold mb-8 mt-16">Packages</h2>
       
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Preliminary Results</h3>
-      <p>
-        The smart footwear prototype platform has shown promising results in initial testing phases. 
-        The data-driven approach has not only provided valuable insights for product development but also opened 
-        new possibilities for personalized product recommendations in retail environments. Patent applications have 
-        been filed based on innovations developed during this ongoing project.
-      </p>
-      
-      <div className="bg-blue-50 p-6 rounded-lg mt-8 flex items-start">
-        <Sparkles className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
-        <div>
-          <h4 className="text-lg font-semibold mb-2 text-gray-700">Development Roadmap</h4>
-          <p>
-            WRLDS Technologies continues to partner with this client on this R&D initiative to refine the prototype and 
-            develop potential consumer versions of this technology, which could enable everyday athletes to benefit 
-            from professional-grade footwear analysis and recommendations.
-          </p>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {/* Bronze Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-amber-700 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Bronze</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£150</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Initial consultation</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Basic assessment</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Stress evaluation</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-amber-700">✓</div>
+                <span>Basic coping strategies</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full">Book Now</Button>
+          </CardFooter>
+        </Card>
+        
+        {/* Silver Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-gray-400 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Silver</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£250</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start font-medium">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Includes everything in Bronze</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Detailed assessment</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-gray-500">✓</div>
+                <span>Personalized therapy plan</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full" variant="secondary">Book Now</Button>
+          </CardFooter>
+        </Card>
+        
+        {/* Gold Package */}
+        <Card className="flex flex-col h-full border-t-4 border-t-yellow-500 hover:shadow-lg transition-shadow">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-2xl font-bold text-center">Gold</CardTitle>
+            <p className="text-3xl font-bold text-center mt-2">£350</p>
+          </CardHeader>
+          <CardContent className="flex-grow">
+            <ul className="space-y-3">
+              <li className="flex items-start font-medium">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>Includes everything in Silver</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>Ongoing support</span>
+              </li>
+              <li className="flex items-start">
+                <div className="mr-2 mt-1 text-yellow-500">✓</div>
+                <span>Comprehensive wellness plan</span>
+              </li>
+            </ul>
+          </CardContent>
+          <CardFooter className="pt-4">
+            <Button className="w-full bg-yellow-500 hover:bg-yellow-600">Book Now</Button>
+          </CardFooter>
+        </Card>
       </div>
     </ProjectPageLayout>
   );
