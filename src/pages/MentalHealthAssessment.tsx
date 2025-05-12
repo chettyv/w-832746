@@ -36,7 +36,7 @@ const MentalHealthAssessment = () => {
         <p>
           Our Mental Health Assessment provides a comprehensive evaluation of your mental wellbeing, 
           focusing on emotional health, stress management, and psychological support. This thorough 
-          assessment helps identify potential mental health concerns early and provides personalized 
+          assessment helps identify potential mental health concerns early and provides personalised 
           recommendations for maintaining optimal mental health.
         </p>
       </div>
