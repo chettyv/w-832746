@@ -76,8 +76,7 @@ const Footer = () => {
               className="h-10 w-auto mb-6 invert" // Added invert to make logo white
             />
             <p className="text-gray-300 mb-6">
-              WRLDS Technologies provides an end-to-end platform for the creation and deployment of AI-powered smart sensor devices, giving customers 100% ownership while handling the complete technological development.
-            </p>
+            WellSphere provides a platform designed to help you become a better, healthier version of yourself. We empower you to take full ownership of your health and make lasting changes for a vibrant, balanced life.            </p>
             <p className="text-gray-300 mb-6">
               Hornsgatan 110<br />
               117 26, Stockholm Sweden

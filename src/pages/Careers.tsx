@@ -37,18 +37,23 @@ const Careers = () => {
                   transition={{ duration: 0.5, delay: 0.2 }} 
                   className="text-xl text-gray-600 mb-4"
                 >
-                  We're looking for passionate innovators to help us revolutionize the smart textile industry.
-                </motion.p>
+                  At WellSphere, we’re on a mission to revolutionise health and wellbeing—and we’re looking for passionate doctors, nurses, physiotherapists, and wellness professionals to join us.                </motion.p>
                 
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="text-xl text-gray-600 mb-4"
+                >
+                   We welcome individuals who are driven to make a meaningful difference in people’s lives, and who want to leave a lasting impact on their health, happiness, and quality of life.                </motion.p>
                 <motion.p
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
                   className="text-xl text-gray-600 mb-12"
                 >
-                  We welcome both full-time professionals and interns who are eager to contribute to groundbreaking technology.
-                </motion.p>
-                
+                  If you're ready to be part of a purpose-driven team shaping the future of personalised, holistic care—we'd love to hear from you.                </motion.p>
+              
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }} 
                   animate={{ opacity: 1, y: 0 }} 

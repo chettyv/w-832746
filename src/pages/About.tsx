@@ -38,7 +38,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're a team of innovators dedicated to revolutionizing smart textile technology for industries worldwide.
+                Our clinic delivers personalised healthcare services for individuals, families, and corporate executives. We offer in-depth consultations, comprehensive health assessments, and tailored health packages designed to meet your specific needs. With a focus on prevention, lifestyle optimisation, and long-term wellbeing, we ensure your care is as unique as you are.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
