@@ -19,7 +19,7 @@ const FireCatProject = () => {
         type="service"
       />
       
-      <h2 className="text-3xl mb-6">Why a Women's Health Assessment?</h2>
+      <h2 className="text-3xl font-bold mb-6">Why a Women's Health Assessment?</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <p>
